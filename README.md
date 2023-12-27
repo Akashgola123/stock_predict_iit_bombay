@@ -1,7 +1,7 @@
 The provided Python code is an implementation of a stock market analysis and prediction script for two different stocks, namely Apple Inc. (AAPL) and Google's parent company, Alphabet Inc. (GOOGL). 
 The script leverages historical stock price data to generate buy, sell, or hold signals based on a simple moving average (SMA) crossover strategy. 
 Additionally, the code incorporates a RandomForestClassifier to train a machine learning model, aiming to predict future movements in stock prices.
-
+IMPORTANT INSTALL library IS "yfinance"
 Here is an overview of the key components in the script:
 
 - The code utilizes the `yfinance` library to fetch historical stock price data for the specified tickers (AAPL and GOOGL) within a given date range.
